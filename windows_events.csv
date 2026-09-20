@@ -1,0 +1,16 @@
+time,event_id,username,source_ip,target_account,group_name,process,parent_process,result
+2026-09-20 09:10:02,4624,john,10.0.0.25,,,,,Success
+2026-09-20 09:45:10,4625,john,10.0.0.40,,,,,Failure
+2026-09-20 09:45:18,4625,john,10.0.0.40,,,,,Failure
+2026-09-20 09:45:25,4625,john,10.0.0.40,,,,,Failure
+2026-09-20 09:45:32,4624,john,10.0.0.40,,,,,Success
+2026-09-20 09:47:02,4688,john,10.0.0.40,,,powershell.exe,explorer.exe,Success
+2026-09-20 09:49:15,4728,john,10.0.0.40,john,Domain Admins,,,Success
+2026-09-20 10:15:22,4624,alice,10.0.0.30,,,,,Success
+2026-09-20 10:17:03,4688,alice,10.0.0.30,,,cmd.exe,explorer.exe,Success
+2026-09-20 11:20:01,4624,david,10.0.0.50,,,,,Success
+2026-09-20 11:21:10,4688,david,10.0.0.50,,,powershell.exe,explorer.exe,Success
+2026-09-20 11:22:30,4732,david,10.0.0.50,david,Administrators,,,Success
+2026-09-20 14:30:10,4624,michael,10.0.0.60,,,,,Success
+2026-09-20 14:35:20,4688,michael,10.0.0.60,,,notepad.exe,explorer.exe,Success
+2026-09-20 15:00:10,4733,michael,10.0.0.60,michael,Administrators,,,Success
